@@ -1,0 +1,69 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fa7257, #dd1264, #fc63a7);
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width:92%; */
+}
+
+.btn {
+  padding: 14px;
+  color: #dd1264;
+  background-color: #ffffff;
+  border-radius: 13px;
+  font-weight: 600;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.btn-name-container {
+  /* background-color: #fddddb; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.name-container {
+  background-color: #fddddb;
+  padding: 68px;
+  border-radius: 23px;
+}
+
+.name-style {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.name-overall-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
